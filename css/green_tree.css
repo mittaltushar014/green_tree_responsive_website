@@ -1,0 +1,448 @@
+@media (min-width:768px){
+
+#donate-button{
+    background-color: lightblue;
+    border-radius:12px;
+}
+
+#logo{
+    top: 3%;
+    left: 10%;
+    width: 12%;
+    height: 5%;
+    text-align: left;
+    font: Bold 1.3em Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    float:left;    
+}
+
+nav ul{
+    display: block;
+    padding: 2%;
+    margin: 0;
+    background-color: white;
+    float:right;  
+}
+
+nav ul li{
+    padding: 2% 2em;
+    list-style-type: none;
+    display: inline;
+    font-family: 'Karla';
+}
+
+.navigation{
+    
+}
+
+.image>img{
+    position: relative;
+    width: 100%; 
+    height: auto;
+}
+
+.image{
+    position: relative;
+    width: 100%; 
+    height: auto;
+}
+
+.upperbox{
+    position:absolute;
+    background-color:#354463;
+    top:-4%;
+    left:5%;
+    color:white;
+    text-align:center;
+    width:20%;
+    height:8%;
+    
+}
+
+.boxed{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    height: 45%;
+    text-align:center;
+    
+}
+
+.mainline{
+    position: absolute;
+    left:5%;
+    font: Bold 2.5em Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+.belowline{
+    position: absolute;
+    bottom:5%;
+    left:5%;
+    opacity:50%;
+    text-align: left;
+}
+
+
+.boxed2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+
+footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 4em 4em;
+    padding-bottom:0em;
+    padding-top:0em;
+    background-color: #C1F7D5;
+    color: #354463;
+  }
+
+footer .lifooter{
+    padding: 2em;
+    margin-top:3em;
+  }
+
+.lifooter h3 {
+    font-size: 1.5em;
+    padding-bottom: 0.2em;
+    font-weight: bold;
+    font-family:  Helvetica, sans-serif;
+  }
+
+.lifooter p{
+    font-size: 1em;
+  }
+
+footer .takeaction {
+    position: absolute;
+    background-color: #354463;
+    color: white;
+    top: -1em;
+    left: 45%;
+    padding: 0.6em 0.8em;
+}
+
+}
+
+
+@media (min-width:361px) and (max-width:768px){
+
+    #donate-button{
+        background-color: lightblue;
+        border-radius:12px;
+    }
+    
+    #logo{
+        position: relative;
+        top: 3%;
+        left: 10%;
+        width: 22%;
+        height: 5%;
+        text-align: left;
+        font: Bold 1.3em Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        float:left;    
+    }
+    
+    nav ul{
+        display: block;
+        padding: 2%;
+        margin: 0;
+        background-color: white;
+        float:left;  
+    }
+    
+    nav ul li{
+        padding: 2% 2em;
+        list-style-type: none;
+        display: inline;
+        font-family: 'Karla';
+    }
+    
+    .navigation{
+        
+    }
+    
+
+
+    .image>img{
+        position: relative;
+        width: 100%; 
+        height: 90vh;
+    }
+    
+    .image{
+        position: relative;
+        width: 100%; 
+        height: 90%;
+    }
+
+    .upperbox{
+        position:absolute;
+        background-color:#354463;
+        top:-4%;
+        left:5%;
+        color:white;
+        text-align:center;
+        width:20%;
+        height:8%;
+        
+    }
+
+    .boxed{
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 85%;
+        height: 45%;
+        text-align:center;
+    }   
+
+    .mainline{
+        position: absolute;
+        left:5%;
+        font: Bold 2.5em Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+    
+    
+    .belowline{
+        position: absolute;
+        bottom:5%;
+        left:5%;
+        opacity:50%;
+        text-align: left;
+    }
+    
+
+    .boxed2{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        width:25%;
+        height:25%;
+    }
+
+    /*.boxed2>img{
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        width:20%;
+        height:20%;
+    }*/
+
+    footer{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2em;
+        padding-bottom:0em;
+        padding-top:0em;
+        background-color: #C1F7D5;
+        color: #354463;
+      }
+    
+    footer .lifooter{
+        padding: 2em;
+        margin-top:3em;
+      }
+    
+    .lifooter h3 {
+        font-size: 1.5em;
+        padding-bottom: 0.2em;
+        font-weight: bold;
+        font-family:  Helvetica, sans-serif;
+      }
+    
+    .lifooter p{
+        font-size: 1em;
+      }
+    
+    footer .takeaction {
+        position: absolute;
+        background-color: #354463;
+        color: white;
+        top: -1em;
+        left: 45%;
+        padding: 0.6em 0.8em;
+    }
+    
+}
+
+@media (min-width:1px) and (max-width:360px){
+
+    #donate-button{
+        background-color: lightblue;
+        border-radius:12px;
+    }
+    
+    #logo{
+        position: relative;
+        top: 5vh;
+        left: 5%;
+        width: 45%;
+        text-align: left;
+        font: Bold 1.3em Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        float:left;    
+    }
+    
+    nav ul{
+        padding: 2%;
+        margin: 0;
+        background-color: white;
+        float:right;  
+    }
+    
+    nav ul li{
+        padding: 2% 2em;
+        list-style-type: none;
+        font-family: 'Karla';
+    }
+    
+    .navigation{
+        
+    }
+    
+
+
+    .image>img{
+        position: relative;
+        width: 100%; 
+        height: 90vh;
+    }
+    
+    .image{
+        position: relative;
+        width: 100%; 
+        height: 90%;
+    }
+
+    .upperbox{
+        position:absolute;
+        background-color:#354463;
+        top:-4%;
+        left:35%;
+        color:white;
+        text-align:center;
+        width:30%;
+        height:8%;
+        
+    }
+
+    .boxed{
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 85%;
+        height: 45%;
+        text-align:center;
+    }   
+
+    .mainline{
+        position: absolute;
+        left:1%;
+        font: Bold 1.8em Helvetica;
+        letter-spacing: 0;
+        color: #354463;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    
+    .belowline{
+        position: absolute;
+        bottom:25%;
+        left:5%;
+        opacity:50%;
+        text-align: center;
+    }
+    
+
+    .boxed2{
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        width:25%;
+        height:25%;
+    }
+
+    /*.boxed2>img{
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        width:20%;
+        height:20%;
+    }*/
+
+    footer{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2em;
+        padding-bottom:0em;
+        padding-top:0em;
+        background-color: #C1F7D5;
+        color: #354463;
+      }
+    
+    footer .lifooter{
+        padding: 2em;
+        margin-top:3em;
+      }
+    
+    .lifooter h3 {
+        font-size: 1.5em;
+        padding-bottom: 0.2em;
+        font-weight: bold;
+        font-family:  Helvetica, sans-serif;
+      }
+    
+    .lifooter p{
+        font-size: 1em;
+      }
+    
+    footer .takeaction {
+        position: absolute;
+        background-color: #354463;
+        color: white;
+        top: -1em;
+        left: 30%;
+        padding: 0.6em 0.8em;
+    }
+    
+}
